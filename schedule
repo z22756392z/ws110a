@@ -29,7 +29,6 @@ function DateToArr(date){
 }
 
 function DateToPath(date){
-    ctx.request.url.pathname
     return date[0] + "s" + date[1] + "s" + date[2] +"s" + date[3] +"s" + date[4] ;
 }
 
